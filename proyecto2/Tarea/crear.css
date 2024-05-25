@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(s.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.registrer {
+    width: 400px;
+    background:  rgb(223, 147, 49);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+.registrer h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls {
+    width: 100%;
+    background: rgb(252, 251, 251);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(206, 142, 46);
+    font-family: 'calibri' ;
+    font-size: 18px;
+}
+.registrer p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.registrer a  :hover{
+color: white;
+text-decoration: underline;
+}
+.registrer .botons {
+    width: 100;
+    background: rgb(206, 126, 5);
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}

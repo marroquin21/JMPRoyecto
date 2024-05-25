@@ -1,0 +1,86 @@
+.imagen {
+    text-align: center;
+    width: 1000px;
+    
+
+}
+.kl {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.kl {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+body {
+
+margin: 0;
+padding: 0;
+font-family: montserrat;
+background: linear-gradient(150deg, green, blue);
+height: 100vh;
+
+}
+
+.kl 
+{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50,-50);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+
+}
+.kl {
+text-align: center;
+padding: 0 0 20px 0;
+border-bottom: 1px solid silver;
+
+}
+
+.kl { 
+padding: 0 40px;
+box-sizing: border-box;
+}
+form .username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px;
+}
+form .username {
+
+    position: relative;
+    border-bottom: 2px solid salmon ;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    outline: none   ;
+
+}
+
+.username span::before{
+content: "";
+position: absolute;
+top: 40px;
+left: 0;
+width: 100%;
+height: 2px;
+background: violet;
+
+}
+ .recordar {
+    margin: -5px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
+.recordar 
+{
+    text-decoration: underline;
+}
